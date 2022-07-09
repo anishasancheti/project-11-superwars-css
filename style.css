@@ -1,4 +1,27 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+  font-size: 6vh;
+}
+.col{
+  display: grid;
+  grid-template-columns: 150px 150px;
+}
+.inside-col{
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid rgb(195, 190, 190);
+  border-radius: 5px;
+}
+img{
+  height: 100px;
+  width: 100px;
+}
+.name{
+  font-size: 3vh;
 }
